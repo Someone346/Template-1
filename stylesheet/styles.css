@@ -10,6 +10,7 @@
 .header {
     background-color: var(--secondary-color);
     display: flex;
+    padding-bottom: 191px;
 }
 
 .logo {
@@ -19,6 +20,10 @@
     color: var(--main-color);
     margin-left: 179px;
     margin-right: 319px;
+}
+
+.main-logo {
+    margin-top: 27px;
 }
 
 .navigation-list {
@@ -36,6 +41,7 @@
 
 .navigation-item {
     margin-right: 35px;
+    margin-top: 27px;
 }
 
 .contact-button {
@@ -43,6 +49,9 @@
     border-radius: 50px;
     border-color: var(--main-color);
     margin-left: 319px;
+    width: 150px;
+    height: 50px;
+    margin-top: 27px;
 }
 
 .button-word {
@@ -53,3 +62,48 @@
 
 /* section one styles */
 
+.section-one {
+    background-color: var(--secondary-color);
+}
+
+.main-title {
+    font-style: var(--font);
+    font-size: 48px;
+    color: var(--accent-color);
+    margin-left: 179px;
+    margin-top: 42px;
+}
+
+.text-one {
+    font-style: var(--font);
+    font-size: 24px;
+    color: var(--accent-color);
+    margin-left: 179px;
+}
+
+.button-one {
+    background-color: #F9B640;
+    border-color: #F9B640;
+    width: 150px;
+    height: 50px;
+    margin-left: 179px;
+}
+
+.button-one-word {
+    font-style: var(--font);
+    font-size: 16px;
+    color: white;
+}
+
+.link-button-two {
+    text-decoration: none;
+    font-style: var(--font);
+    font-size: 16px;
+    color: #FAB63E;
+    margin-left: 38px;
+}
+
+.question-box {
+    margin-top: 63px;
+    padding-bottom: 79px;
+}
