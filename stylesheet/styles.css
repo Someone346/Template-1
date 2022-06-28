@@ -1,11 +1,55 @@
 :root {
     --main-color: #62D0DF;
     --secondary-color: #F4F9E2;
+    --accent-color: #22356F;
     --font: 'Abhaya Libre', serif;
 }
 
 /* header styles */
 
 .header {
+    background-color: var(--secondary-color);
+    display: flex;
+}
+
+.logo {
+    text-decoration: none;
+    font-style: var(--font);
+    font-size: 24px;
+    color: var(--main-color);
+    margin-left: 179px;
+    margin-right: 319px;
+}
+
+.navigation-list {
+    display: flex;
+    list-style: none;
 
 }
+
+.navigation-link {
+    text-decoration: none;
+    font-style: var(--font);
+    font-size: 14px;
+    color: var(--accent-color);
+}
+
+.navigation-item {
+    margin-right: 35px;
+}
+
+.contact-button {
+    background-color: var(--main-color);
+    border-radius: 50px;
+    border-color: var(--main-color);
+    margin-left: 319px;
+}
+
+.button-word {
+    color: white;
+    font-style: var(--font);
+    font-size: 14px;
+}
+
+/* section one styles */
+
